@@ -19,7 +19,7 @@ A modern Android news application built with Kotlin and Jetpack Compose that fet
 
 | Home Screen | News Article |
 |-------------|--------------|
-| ![Home Screen](screenshots/home_screen.png) | ![News Detail](screenshots/news_detail.png) |
+| ![Home Screen](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/Screen%20image.jpg) | ![News Detail](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/Home%20image.jpg) |
 
 ## Images
 
