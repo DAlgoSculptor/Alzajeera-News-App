@@ -13,12 +13,19 @@ A modern Android news application built with Kotlin and Jetpack Compose that fet
 - 🌐 Network error handling and retry mechanism
 - 📱 Responsive design for all screen sizes
 - 🎨 Custom app icon with newspaper theme
+- 📷 Custom images in drawable resources
 
 ## Screenshots
 
 | Home Screen | News Article |
 |-------------|--------------|
 | ![Home Screen](screenshots/home_screen.png) | ![News Detail](screenshots/news_detail.png) |
+
+## Images
+
+The app includes custom images in the drawable resources:
+- `home_image.jpg` - Main home screen background
+- `screen_image.jpg` - Additional screen imagery
 
 ## Tech Stack
 
