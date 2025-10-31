@@ -16,7 +16,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             val newsViewModel: NewsViewModel = viewModel()
             val isDarkTheme = remember { mutableStateOf(false) }
-            
+
             AlzajeeraAppTheme(darkTheme = isDarkTheme.value) {
                 NewsScreen(viewModel = newsViewModel, isDarkTheme = isDarkTheme)
             }
