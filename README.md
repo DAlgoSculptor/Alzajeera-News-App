@@ -1,7 +1,9 @@
 # Alzajeera News App
 
-![Alzajeera News App](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png)
-
+[//]: # (![Alzajeera News App]&#40;https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png&#41;)
+<div align="center">
+  <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" alt="Alzajeera News App" width="400"/>
+</div>
 A modern Android news application built with Kotlin and Jetpack Compose that fetches and displays
 the latest news articles from NewsAPI.org.
 
