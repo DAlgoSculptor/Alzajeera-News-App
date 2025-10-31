@@ -1,8 +1,9 @@
 # Alzajeera News App
 
-![Alzajeera News App](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/Home%20image.jpg)
+![Alzajeera News App](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.jpg)
 
-A modern Android news application built with Kotlin and Jetpack Compose that fetches and displays the latest news articles from NewsAPI.org.
+A modern Android news application built with Kotlin and Jetpack Compose that fetches and displays
+the latest news articles from NewsAPI.org.
 
 ## Features
 
@@ -17,13 +18,14 @@ A modern Android news application built with Kotlin and Jetpack Compose that fet
 
 ## Screenshots
 
-| Home Screen | News Article             |
-|-------------|--------------------------|
-| ![Home Screen](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_image.jpg) | ![News Detail](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/screen_image.jpg)         |
+| Home Screen                                                                                                           | News Article     |
+|-----------------------------------------------------------------------------------------------------------------------|------------------|
+| ![Home Screen](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.jpg) | ![News Detail](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.jpg) |
 
 ## Images
 
 The app includes custom images in the drawable resources:
+
 - `home_image.jpg` - Main home screen background
 - `screen_image.jpg` - Additional screen imagery
 
@@ -92,7 +94,8 @@ app/
 
 ## API Integration
 
-The app uses NewsAPI.org for fetching news articles. You need to sign up for a free API key at [NewsAPI.org](https://newsapi.org/).
+The app uses NewsAPI.org for fetching news articles. You need to sign up for a free API key
+at [NewsAPI.org](https://newsapi.org/).
 
 ### Endpoints Used
 
@@ -121,27 +124,35 @@ com.example.alzajeeraapp
 ## Key Components
 
 ### NewsScreen.kt
+
 The main Compose UI that displays:
+
 - Loading indicators
 - News articles in a scrollable list
 - Error states with retry functionality
 - Pull-to-refresh capability
 
 ### NewsViewModel.kt
+
 Handles:
+
 - UI state management
 - API calls through the repository
 - Error handling
 - Loading states
 
 ### NewsRepository.kt
+
 Responsible for:
+
 - Making API calls
 - Handling network responses
 - Providing data to the ViewModel
 
 ### NewsApiService.kt
+
 Retrofit interface that defines:
+
 - API endpoints
 - Request parameters
 - Response types
@@ -162,4 +173,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 Danish Nawaz - [@DAlgoSculptor](https://github.com/DAlgoSculptor)
 
-Project Link: [https://github.com/DAlgoSculptor/Alzajeera-News-App](https://github.com/DAlgoSculptor/Alzajeera-News-App)
+Project
+Link: [https://github.com/DAlgoSculptor/Alzajeera-News-App](https://github.com/DAlgoSculptor/Alzajeera-News-App)
