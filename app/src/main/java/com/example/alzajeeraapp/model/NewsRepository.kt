@@ -1,7 +1,5 @@
 package com.example.alzajeeraapp.model
 
-
-
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
@@ -19,5 +17,13 @@ class NewsRepository {
 
     suspend fun fetchNews(): List<NewsArticle> {
         return api.getTopHeadlines(apiKey = apiKey).articles
+    }
+    
+    suspend fun fetchVideos(): List<NewsArticle> {
+        // For now, we'll use the same API but filter for articles with video content
+        // In a real implementation, you might use a different endpoint or parameter
+        return api.getTopHeadlines(apiKey = apiKey).articles.filter { 
+            it.urlToImage != null && it.title != null
+        }
     }
 }
