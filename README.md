@@ -5,8 +5,8 @@
   <img 
     src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" 
     alt="Alzajeera News App" 
-    width="400" 
-    style="border: 2px solid #ccc; border-radius: 15px; padding: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"
+    width="420"
+    style="border: 3px solid #4CAF50; border-radius: 12px; padding: 6px; background-color: #ffffff;"
   />
 </div>
 A modern Android news application built with Kotlin and Jetpack Compose that fetches and displays
