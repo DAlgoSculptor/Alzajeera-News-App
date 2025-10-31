@@ -2,7 +2,12 @@
 
 [//]: # (![Alzajeera News App]&#40;https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png&#41;)
 <div align="center">
-  <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" alt="Alzajeera News App" width="400"/>
+  <img 
+    src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" 
+    alt="Alzajeera News App" 
+    width="400" 
+    style="border: 2px solid #ccc; border-radius: 15px; padding: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.2);"
+  />
 </div>
 A modern Android news application built with Kotlin and Jetpack Compose that fetches and displays
 the latest news articles from NewsAPI.org.
