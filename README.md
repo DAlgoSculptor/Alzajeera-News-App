@@ -115,25 +115,52 @@ graph LR
 
 <div align="center">
 
-```
-📦 app
- ├── 📂 model
- │   ├── 📄 NewsArticle.kt          # Data model for articles
- │   ├── 📄 NewsResponse.kt         # API response model
- │   └── 📄 NewsApiService.kt       # Retrofit API interface
- │
- ├── 📂 view
- │   └── 📄 NewsScreen.kt           # Main Compose UI
- │
- ├── 📂 viewmodel
- │   └── 📄 NewsViewModel.kt        # Business logic & state
- │
- ├── 📂 ui/theme
- │   ├── 📄 Color.kt                # App colors
- │   ├── 📄 Theme.kt                # Material 3 theme
- │   └── 📄 Type.kt                 # Typography
- │
- └── 📄 MainActivity.kt              # Entry point
+```mermaid
+graph TB
+    ROOT[📦 app/]
+    
+    MODEL[📂 model/]
+    M1[📄 NewsArticle.kt]
+    M2[📄 NewsResponse.kt]
+    M3[📄 NewsApiService.kt]
+    
+    VIEW[📂 view/]
+    V1[📄 NewsScreen.kt]
+    
+    VIEWMODEL[📂 viewmodel/]
+    VM1[📄 NewsViewModel.kt]
+    
+    THEME[📂 ui/theme/]
+    T1[📄 Color.kt]
+    T2[📄 Theme.kt]
+    T3[📄 Type.kt]
+    
+    MAIN[📄 MainActivity.kt]
+    
+    ROOT --> MODEL
+    ROOT --> VIEW
+    ROOT --> VIEWMODEL
+    ROOT --> THEME
+    ROOT --> MAIN
+    
+    MODEL --> M1
+    MODEL --> M2
+    MODEL --> M3
+    
+    VIEW --> V1
+    
+    VIEWMODEL --> VM1
+    
+    THEME --> T1
+    THEME --> T2
+    THEME --> T3
+    
+    style ROOT fill:#667eea,stroke:#5568d3,stroke-width:3px,color:#fff
+    style MODEL fill:#4ade80,stroke:#22c55e,stroke-width:2px,color:#000
+    style VIEW fill:#60a5fa,stroke:#3b82f6,stroke-width:2px,color:#000
+    style VIEWMODEL fill:#f59e0b,stroke:#d97706,stroke-width:2px,color:#000
+    style THEME fill:#ec4899,stroke:#db2777,stroke-width:2px,color:#fff
+    style MAIN fill:#8b5cf6,stroke:#7c3aed,stroke-width:2px,color:#fff
 ```
 
 </div>
