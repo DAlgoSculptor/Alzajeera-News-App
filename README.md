@@ -26,11 +26,39 @@ the latest news articles from NewsAPI.org.
 ## Screenshots
 <div align="center">
 
-| 🏠 Home Screen | 📰 News Article |
-|:---------------:|:---------------:|
-| <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" width="300" style="border-radius:10px; border:2px solid #ccc;"> | <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" width="300" style="border-radius:10px; border:2px solid #ccc;"> |
+<table>
+  <tr>
+    <th style="text-align:center; font-size:20px;">🏠 Home Screen</th>
+    <th style="text-align:center; font-size:20px;">📰 News Article</th>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/DAlgoSculptor/Alzajeera-News-App">
+        <img 
+          src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" 
+          width="300" 
+          style="border-radius:15px; border:2px solid #00C853; box-shadow:0 0 15px rgba(0,200,83,0.4); transition:transform 0.3s, box-shadow 0.3s;" 
+          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px rgba(0,200,83,0.8)';" 
+          onmouseout="this.style.transform='scale(1.0)'; this.style.boxShadow='0 0 15px rgba(0,200,83,0.4)';"
+        >
+      </a>
+    </td>
+    <td>
+      <a href="https://github.com/DAlgoSculptor/Alzajeera-News-App">
+        <img 
+          src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" 
+          width="300" 
+          style="border-radius:15px; border:2px solid #2979FF; box-shadow:0 0 15px rgba(41,121,255,0.4); transition:transform 0.3s, box-shadow 0.3s;" 
+          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px rgba(41,121,255,0.8)';" 
+          onmouseout="this.style.transform='scale(1.0)'; this.style.boxShadow='0 0 15px rgba(41,121,255,0.4)';"
+        >
+      </a>
+    </td>
+  </tr>
+</table>
 
 </div>
+
 
 
 ## Images
