@@ -1,386 +1,763 @@
-# 📱 Alzajeera News App
-
 <div align="center">
 
-![App Icon](https://img.shields.io/badge/Alzajeera-News%20App-667eea?style=for-the-badge&logo=android&logoColor=white)
+# 📱✨ ALZAJEERA NEWS APP ✨📱
 
-  <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" alt="Alzajeera News App" width="420"/>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=667EEA&center=true&vCenter=true&width=940&lines=Modern+Android+News+Application;Built+with+Kotlin+%26+Jetpack+Compose;Real-time+News+from+NewsAPI.org" alt="Typing SVG" />
 
-### 🚀 A Modern Android News Application
+<br/>
 
-*Built with Kotlin & Jetpack Compose | Powered by NewsAPI.org*
+<img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" alt="Alzajeera News App" width="500" style="border-radius: 20px;"/>
 
-[![Made with Kotlin](https://img.shields.io/badge/Kotlin-1.8.0-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
-[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Latest-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
-[![Material 3](https://img.shields.io/badge/Material%203-Design-757575?style=flat-square&logo=material-design&logoColor=white)](https://m3.material.io/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+<br/>
+<br/>
 
-</div>
+<!-- Badges Section -->
+<p align="center">
+  <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" alt="Kotlin"/>
+  <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white" alt="Compose"/>
+  <img src="https://img.shields.io/badge/Material%203-757575?style=for-the-badge&logo=material-design&logoColor=white" alt="Material 3"/>
+  <img src="https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/github/stars/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&logo=github&color=yellow" alt="Stars"/>
+  <img src="https://img.shields.io/github/forks/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&logo=github&color=blue" alt="Forks"/>
+  <img src="https://img.shields.io/github/license/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&color=green" alt="License"/>
+  <img src="https://img.shields.io/badge/PRs-Welcome-ff69b4?style=for-the-badge&logo=github" alt="PRs"/>
+</p>
+
+<br/>
+
+### 🚀 **Experience News Like Never Before**
+
+*A cutting-edge Android news application that delivers real-time news with stunning Material 3 design*
+
+<br/>
+
+[📥 Download](#-getting-started) • [📸 Screenshots](#-app-showcase) • [✨ Features](#-features-that-wow) • [🛠️ Tech](#-tech-stack) • [🤝 Contribute](#-contributing)
+
+<br/>
 
 ---
 
-## 📸 Screenshots
+</div>
+
+<br/>
+
+## 📸 APP SHOWCASE
 
 <div align="center">
 
-  <table>
-    <tr>
-      <td align="center">
-        <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" width="350"/>
-        <br />
-        <sub><b>🏠 Home Screen</b></sub>
-        <br />
-        <sub>Modern Material 3 Design</sub>
-      </td>
-      <td align="center">
-        <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" width="350"/>
-        <br />
-        <sub><b>📰 News Article</b></sub>
-        <br />
-        <sub>Rich Content Display</sub>
-      </td>
-    </tr>
-  </table>
-
-</div>
-
----
-
-## ✨ Features
-
-<div align="center">
-
-| Feature | Description |
-|---------|-------------|
-| 📱 **Modern UI** | Beautiful Material 3 Design with Jetpack Compose |
-| 📰 **Real-time News** | Live feed from NewsAPI.org |
-| 🔄 **Pull to Refresh** | Smooth refresh functionality |
-| 🖼️ **Image Loading** | Fast loading with Coil library |
-| 🌐 **Network Handling** | Robust error handling & retry |
-| 📏 **Responsive Design** | Adapts to all screen sizes |
-| 🎨 **Custom Theme** | Material 3 theming system |
-| ⚡ **Performance** | Optimized with Kotlin Coroutines |
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-```mermaid
-graph LR
-    A[Kotlin] --> B[Jetpack Compose]
-    B --> C[Material 3]
-    A --> D[Coroutines]
-    A --> E[Retrofit]
-    E --> F[NewsAPI]
-    B --> G[Coil]
-    A --> H[MVVM Architecture]
-```
-
-</div>
-
-### Core Technologies
+### 🎨 Stunning Material 3 Design
 
 <table>
   <tr>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
-      <br /><b>Kotlin</b>
+    <td width="50%">
+      <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" alt="Home Screen" width="100%"/>
     </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
-      <br /><b>Jetpack Compose</b>
+    <td width="50%">
+      <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" alt="News Article" width="100%"/>
     </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge&logo=square&logoColor=white"/>
-      <br /><b>Retrofit</b>
+  </tr>
+  <tr>
+    <td align="center">
+      <br/>
+      <img src="https://img.shields.io/badge/🏠_HOME_SCREEN-4285F4?style=for-the-badge" alt="Home"/>
+      <br/><br/>
+      <sub><b>📱 Modern Feed Layout</b></sub><br/>
+      <sub>⚡ Real-time Updates</sub><br/>
+      <sub>🔄 Pull to Refresh</sub><br/>
+      <sub>🎨 Material 3 Design</sub>
     </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/Coil-000000?style=for-the-badge&logo=coil&logoColor=white"/>
-      <br /><b>Coil</b>
-    </td>
-    <td align="center" width="20%">
-      <img src="https://img.shields.io/badge/MVVM-FF6B6B?style=for-the-badge&logo=architecture&logoColor=white"/>
-      <br /><b>MVVM</b>
+    <td align="center">
+      <br/>
+      <img src="https://img.shields.io/badge/📰_NEWS_ARTICLE-667EEA?style=for-the-badge" alt="Article"/>
+      <br/><br/>
+      <sub><b>📖 Rich Content Display</b></sub><br/>
+      <sub>🖼️ High-Quality Images</sub><br/>
+      <sub>📝 Detailed Information</sub><br/>
+      <sub>⚡ Fast Loading</sub>
     </td>
   </tr>
 </table>
 
----
-
-## 📁 Project Architecture
-
-<div align="center">
-
-```
-📦 app
- ├── 📂 model
- │   ├── 📄 NewsArticle.kt          # Data model for articles
- │   ├── 📄 NewsResponse.kt         # API response model
- │   └── 📄 NewsApiService.kt       # Retrofit API interface
- │
- ├── 📂 view
- │   └── 📄 NewsScreen.kt           # Main Compose UI
- │
- ├── 📂 viewmodel
- │   └── 📄 NewsViewModel.kt        # Business logic & state
- │
- ├── 📂 ui/theme
- │   ├── 📄 Color.kt                # App colors
- │   ├── 📄 Theme.kt                # Material 3 theme
- │   └── 📄 Type.kt                 # Typography
- │
- └── 📄 MainActivity.kt              # Entry point
-```
+<br/>
 
 </div>
 
 ---
 
-## 🚀 Getting Started
+<br/>
 
-### Prerequisites
+## ✨ FEATURES THAT WOW
 
 <div align="center">
 
-| Requirement | Version |
-|------------|---------|
-| 🔧 Android Studio | Flamingo+ |
-| 🔷 Kotlin | 1.8.0+ |
-| 🏗️ Gradle | 8.11.1+ |
-| 📱 Min SDK | 24 (Android 7.0) |
-| 🎯 Target SDK | 34 (Android 14) |
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 📱
+### **Modern UI**
+<sub>Beautiful Material 3</sub>
+<sub>Jetpack Compose</sub>
+<sub>Smooth Animations</sub>
+
+</td>
+<td width="33%" align="center">
+
+### 🔄
+### **Real-time**
+<sub>Live News Feed</sub>
+<sub>Auto Updates</sub>
+<sub>Pull to Refresh</sub>
+
+</td>
+<td width="33%" align="center">
+
+### ⚡
+### **Performance**
+<sub>Fast Loading</sub>
+<sub>Efficient Caching</sub>
+<sub>Optimized Images</sub>
+
+</td>
+</tr>
+
+<tr>
+<td width="33%" align="center">
+
+### 🌐
+### **Network**
+<sub>Retrofit Integration</sub>
+<sub>Error Handling</sub>
+<sub>Retry Mechanism</sub>
+
+</td>
+<td width="33%" align="center">
+
+### 🖼️
+### **Media**
+<sub>Coil Image Loading</sub>
+<sub>Lazy Loading</sub>
+<sub>Placeholder Support</sub>
+
+</td>
+<td width="33%" align="center">
+
+### 🎨
+### **Design**
+<sub>Responsive Layout</sub>
+<sub>Dark Mode Ready</sub>
+<sub>Custom Theming</sub>
+
+</td>
+</tr>
+</table>
 
 </div>
 
-### Installation Steps
+<br/>
 
-1️⃣ **Clone the repository**
+---
+
+<br/>
+
+## 🛠️ TECH STACK
+
+<div align="center">
+
+### 💎 **Built With The Best**
+
+<br/>
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#667eea','primaryTextColor':'#fff','primaryBorderColor':'#764ba2','lineColor':'#f093fb','secondaryColor':'#667eea','tertiaryColor':'#f093fb'}}}%%
+graph TB
+    A[🔷 Kotlin] --> B[📱 Jetpack Compose]
+    A --> C[⚡ Coroutines]
+    B --> D[🎨 Material 3]
+    A --> E[🌐 Retrofit]
+    E --> F[📰 NewsAPI]
+    B --> G[🖼️ Coil]
+    A --> H[🏗️ MVVM]
+    H --> B
+    
+    style A fill:#7F52FF,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#4285F4,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#667eea,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#48B983,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
+    style G fill:#000,stroke:#fff,stroke-width:2px,color:#fff
+    style H fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#764ba2,stroke:#fff,stroke-width:2px,color:#fff
+```
+
+<br/>
+
+### 📦 **Core Technologies**
+
+<table>
+  <tr>
+    <td align="center" width="16.66%">
+      <br/>
+      <img src="https://skillicons.dev/icons?i=kotlin" width="50" height="50" alt="Kotlin"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin"/>
+      <br/>
+      <sub><b>Language</b></sub>
+    </td>
+    <td align="center" width="16.66%">
+      <br/>
+      <img src="https://skillicons.dev/icons?i=androidstudio" width="50" height="50" alt="Android"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Jetpack-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack"/>
+      <br/>
+      <sub><b>UI Framework</b></sub>
+    </td>
+    <td align="center" width="16.66%">
+      <br/>
+      <img src="https://user-images.githubusercontent.com/25181517/186711335-a3729606-5a78-4496-9a36-06efcc74f800.png" width="50" height="50" alt="Retrofit"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Retrofit-48B983?style=flat-square&logo=square&logoColor=white" alt="Retrofit"/>
+      <br/>
+      <sub><b>Networking</b></sub>
+    </td>
+    <td align="center" width="16.66%">
+      <br/>
+      <img src="https://coil-kt.github.io/coil/logo.svg" width="50" height="50" alt="Coil"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Coil-000000?style=flat-square&logo=coil&logoColor=white" alt="Coil"/>
+      <br/>
+      <sub><b>Images</b></sub>
+    </td>
+    <td align="center" width="16.66%">
+      <br/>
+      <img src="https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack_donut.gif" width="50" height="50" alt="Coroutines"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/Coroutines-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Coroutines"/>
+      <br/>
+      <sub><b>Async</b></sub>
+    </td>
+    <td align="center" width="16.66%">
+      <br/>
+      <img src="https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png" width="50" height="50" alt="MVVM"/>
+      <br/><br/>
+      <img src="https://img.shields.io/badge/MVVM-FF6B6B?style=flat-square&logo=architecture&logoColor=white" alt="MVVM"/>
+      <br/>
+      <sub><b>Architecture</b></sub>
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## 📁 PROJECT ARCHITECTURE
+
+<div align="center">
+
+### 🏗️ **Clean & Scalable Structure**
+
+<br/>
+
+```
+📦 com.example.alzajeeraapp
+┃
+┣━━ 📂 model
+┃   ┣━━ 📄 NewsArticle.kt        ━━━━━━━━━ 📰 Article Data Model
+┃   ┣━━ 📄 NewsResponse.kt       ━━━━━━━━━ 📦 API Response Model
+┃   ┗━━ 📄 NewsApiService.kt     ━━━━━━━━━ 🌐 Retrofit Interface
+┃
+┣━━ 📂 view
+┃   ┗━━ 📄 NewsScreen.kt         ━━━━━━━━━ 🎨 Compose UI Screen
+┃
+┣━━ 📂 viewmodel
+┃   ┗━━ 📄 NewsViewModel.kt      ━━━━━━━━━ 🧠 Business Logic
+┃
+┣━━ 📂 ui/theme
+┃   ┣━━ 📄 Color.kt              ━━━━━━━━━ 🎨 Color Palette
+┃   ┣━━ 📄 Theme.kt              ━━━━━━━━━ 🌈 Material Theme
+┃   ┗━━ 📄 Type.kt               ━━━━━━━━━ ✍️ Typography
+┃
+┗━━ 📄 MainActivity.kt            ━━━━━━━━━ 🚀 App Entry Point
+```
+
+<br/>
+
+### 🔄 **Data Flow Architecture**
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#667eea','primaryTextColor':'#fff','primaryBorderColor':'#764ba2','lineColor':'#667eea','secondaryColor':'#764ba2','tertiaryColor':'#f093fb'}}}%%
+sequenceDiagram
+    participant UI as 📱 NewsScreen
+    participant VM as 🧠 ViewModel
+    participant Repo as 📦 Repository
+    participant API as 🌐 NewsAPI
+    
+    UI->>VM: 🔄 Request News
+    activate VM
+    VM->>Repo: 📡 fetchNews()
+    activate Repo
+    Repo->>API: 🌍 GET /top-headlines
+    activate API
+    API-->>Repo: ✅ NewsResponse
+    deactivate API
+    Repo-->>VM: 📰 List<Article>
+    deactivate Repo
+    VM-->>UI: 🎨 Update State
+    deactivate VM
+    UI->>UI: ✨ Display Articles
+```
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## 🚀 GETTING STARTED
+
+<div align="center">
+
+### ⚡ **Quick Setup Guide**
+
+<br/>
+
+</div>
+
+### 📋 Prerequisites
+
+<div align="center">
+
+| Component | Version | Status |
+|:---------:|:-------:|:------:|
+| **🔧 Android Studio** | Flamingo+ | ![Required](https://img.shields.io/badge/Required-FF6B6B?style=flat-square) |
+| **🔷 Kotlin** | 1.8.0+ | ![Required](https://img.shields.io/badge/Required-FF6B6B?style=flat-square) |
+| **🏗️ Gradle** | 8.11.1+ | ![Required](https://img.shields.io/badge/Required-FF6B6B?style=flat-square) |
+| **📱 Min SDK** | 24 (Nougat) | ![Supported](https://img.shields.io/badge/Supported-4CAF50?style=flat-square) |
+| **🎯 Target SDK** | 34 (Android 14) | ![Latest](https://img.shields.io/badge/Latest-4285F4?style=flat-square) |
+
+</div>
+
+<br/>
+
+### 📥 Installation
+
+<div align="center">
+
 ```bash
+# 1️⃣ Clone this awesome repository
 git clone https://github.com/DAlgoSculptor/Alzajeera-News-App.git
+
+# 2️⃣ Navigate to project directory
 cd Alzajeera-News-App
+
+# 3️⃣ Open in Android Studio
+# File → Open → Select Project Directory
 ```
 
-2️⃣ **Get your API Key**
-- Visit [NewsAPI.org](https://newsapi.org/)
-- Sign up for a free API key
+</div>
 
-3️⃣ **Add API Key**
-- Open `NewsRepository.kt`
-- Replace `YOUR_API_KEY_HERE` with your actual API key:
+<br/>
+
+### 🔑 API Configuration
+
+<div align="center">
+
+**Get your FREE API key from [NewsAPI.org](https://newsapi.org/) 🌟**
+
+<br/>
+
 ```kotlin
-private val apiKey = "your_actual_api_key_here"
+// 📂 Navigate to: NewsRepository.kt
+// 🔧 Replace with your API key
+
+private val apiKey = "your_actual_api_key_here"  // 🔐 Add your key
 ```
 
-4️⃣ **Build & Run**
-- Open project in Android Studio
-- Sync Gradle
-- Run on emulator or device
+</div>
+
+<br/>
+
+### 🎯 Build & Run
+
+<div align="center">
+
+| Step | Action | Description |
+|:----:|:------:|:-----------:|
+| **1️⃣** | 🔄 **Sync Gradle** | Wait for dependencies to download |
+| **2️⃣** | 🏗️ **Build Project** | Build → Rebuild Project |
+| **3️⃣** | 🚀 **Run App** | Click ▶️ or Shift + F10 |
+| **4️⃣** | 🎉 **Enjoy!** | App running on your device! |
+
+</div>
+
+<br/>
 
 ---
 
-## 📦 Dependencies
+<br/>
+
+## 📦 DEPENDENCIES
+
+<div align="center">
+
+### 🎁 **Powerful Libraries Powering This App**
+
+<br/>
 
 <details>
-<summary><b>Click to expand dependencies</b></summary>
+<summary><b>📚 Click to View All Dependencies</b></summary>
+
+<br/>
 
 ```gradle
 dependencies {
-    // Core Android
+    // 🔷 Core Kotlin & Android
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
-    
-    // Compose
     implementation 'androidx.activity:activity-compose:1.8.2'
+    
+    // 🎨 Jetpack Compose - Modern UI Toolkit
     implementation platform('androidx.compose:compose-bom:2024.02.00')
     implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-graphics'
     implementation 'androidx.compose.ui:ui-tooling-preview'
     implementation 'androidx.compose.material3:material3'
     
-    // Networking
+    // 🌐 Networking - Retrofit
     implementation 'com.squareup.retrofit2:retrofit:2.9.0'
     implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.11.0'
     
-    // Image Loading
+    // 🖼️ Image Loading - Coil
     implementation 'io.coil-kt:coil-compose:2.5.0'
+    
+    // 🧪 Testing
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
+    
+    // 🔧 Debug Tools
+    debugImplementation 'androidx.compose.ui:ui-tooling'
+    debugImplementation 'androidx.compose.ui:ui-test-manifest'
 }
 ```
 
 </details>
 
----
+</div>
 
-## 🎯 Key Features Breakdown
-
-### 🏠 Home Screen
-- ✅ Material 3 Design language
-- ✅ Lazy column for efficient scrolling
-- ✅ Pull-to-refresh functionality
-- ✅ Loading states with progress indicators
-- ✅ Error handling with retry option
-
-### 📰 News Articles
-- ✅ Rich image display
-- ✅ Article title and description
-- ✅ Source and timestamp
-- ✅ Smooth animations
-- ✅ Click to read more
-
-### 🔧 Technical Features
-- ✅ MVVM architecture pattern
-- ✅ Kotlin Coroutines for async operations
-- ✅ State management with ViewModel
-- ✅ Retrofit for network calls
-- ✅ Coil for image loading
-- ✅ Material 3 theming system
+<br/>
 
 ---
 
-## 📊 API Integration
+<br/>
+
+## 🎨 KEY FEATURES DEEP DIVE
 
 <div align="center">
 
-```mermaid
-sequenceDiagram
-    participant UI as NewsScreen
-    participant VM as NewsViewModel
-    participant Repo as NewsRepository
-    participant API as NewsAPI
-    
-    UI->>VM: Request News
-    VM->>Repo: fetchNews()
-    Repo->>API: GET /v2/top-headlines
-    API-->>Repo: NewsResponse
-    Repo-->>VM: List<NewsArticle>
-    VM-->>UI: Update State
-    UI->>UI: Display Articles
-```
+### 🌟 **What Makes This App Special**
 
-</div>
-
-### API Endpoints
-
-| Endpoint | Method | Description |
-|----------|--------|-------------|
-| `/v2/top-headlines` | GET | Fetch latest news headlines |
-
-**Parameters:**
-- `country`: News country (default: `us`)
-- `apiKey`: Your NewsAPI key
-
----
-
-## 🎨 UI Components
+<br/>
 
 <table>
-  <tr>
-    <th>Component</th>
-    <th>Description</th>
-    <th>Technology</th>
-  </tr>
-  <tr>
-    <td>📄 <b>NewsScreen</b></td>
-    <td>Main composable displaying news list</td>
-    <td>Jetpack Compose</td>
-  </tr>
-  <tr>
-    <td>🎴 <b>NewsCard</b></td>
-    <td>Individual article card with image & text</td>
-    <td>Material 3 Card</td>
-  </tr>
-  <tr>
-    <td>🔄 <b>PullRefresh</b></td>
-    <td>Swipe-to-refresh indicator</td>
-    <td>Compose Material</td>
-  </tr>
-  <tr>
-    <td>⚠️ <b>ErrorState</b></td>
-    <td>Error display with retry button</td>
-    <td>Custom Composable</td>
-  </tr>
-  <tr>
-    <td>⏳ <b>LoadingState</b></td>
-    <td>Circular progress indicator</td>
-    <td>Material 3</td>
-  </tr>
+<tr>
+<td width="50%">
+
+#### 🏠 **Home Screen Excellence**
+
+- ✅ Material 3 Design System
+- ✅ LazyColumn for Performance
+- ✅ Pull-to-Refresh Gesture
+- ✅ Shimmer Loading Effects
+- ✅ Error State with Retry
+- ✅ Empty State Handling
+- ✅ Smooth Scroll Animations
+
+</td>
+<td width="50%">
+
+#### 📰 **Rich Article Display**
+
+- ✅ High-Quality Image Display
+- ✅ Article Title & Description
+- ✅ Source Attribution
+- ✅ Published Timestamp
+- ✅ Card-Based Layout
+- ✅ Click to Read More
+- ✅ Responsive Design
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+#### 🔧 **Technical Excellence**
+
+- ✅ MVVM Architecture Pattern
+- ✅ Kotlin Coroutines
+- ✅ State Management
+- ✅ Dependency Injection Ready
+- ✅ Repository Pattern
+- ✅ Clean Code Structure
+
+</td>
+<td width="50%">
+
+#### ⚡ **Performance & UX**
+
+- ✅ Fast Network Calls
+- ✅ Efficient Memory Usage
+- ✅ Image Caching
+- ✅ Smooth 60 FPS UI
+- ✅ Offline Error Handling
+- ✅ Optimized Rendering
+
+</td>
+</tr>
 </table>
+
+</div>
+
+<br/>
 
 ---
 
-## 🤝 Contributing
+<br/>
 
-Contributions are what make the open source community amazing!
+## 🔗 API INTEGRATION
 
 <div align="center">
 
-```mermaid
-graph LR
-    A[Fork] --> B[Create Branch]
-    B --> C[Make Changes]
-    C --> D[Commit]
-    D --> E[Push]
-    E --> F[Pull Request]
+### 🌐 **NewsAPI.org Integration**
+
+<br/>
+
+**Endpoint Used:**
+```
+GET https://newsapi.org/v2/top-headlines
+```
+
+<br/>
+
+| Parameter | Type | Description | Default |
+|:---------:|:----:|:-----------:|:-------:|
+| `country` | string | News country code | `us` |
+| `apiKey` | string | Your API key | Required |
+| `pageSize` | integer | Articles per page | `20` |
+| `page` | integer | Page number | `1` |
+
+<br/>
+
+**Response Structure:**
+
+```json
+{
+  "status": "ok",
+  "totalResults": 38,
+  "articles": [
+    {
+      "source": { "id": null, "name": "Source Name" },
+      "author": "Author Name",
+      "title": "Article Title",
+      "description": "Article Description",
+      "url": "https://article-url.com",
+      "urlToImage": "https://image-url.com",
+      "publishedAt": "2024-01-01T12:00:00Z",
+      "content": "Article content..."
+    }
+  ]
+}
 ```
 
 </div>
 
-1. 🍴 Fork the Project
-2. 🌿 Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. ✍️ Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. 🚀 Push to the Branch (`git push origin feature/AmazingFeature`)
-5. 🎉 Open a Pull Request
+<br/>
 
 ---
 
-## 📝 License
+<br/>
+
+## 🤝 CONTRIBUTING
 
 <div align="center">
 
-Distributed under the MIT License. See `LICENSE` for more information.
+### 💖 **Contributions Make the Community Amazing!**
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+<br/>
+
+```mermaid
+%%{init: {'theme':'base', 'themeVariables': { 'primaryColor':'#667eea','primaryTextColor':'#fff','primaryBorderColor':'#764ba2','lineColor':'#667eea'}}}%%
+graph LR
+    A[🍴 Fork] --> B[🌿 Branch]
+    B --> C[✍️ Code]
+    C --> D[✅ Commit]
+    D --> E[🚀 Push]
+    E --> F[🎉 PR]
+    
+    style A fill:#667eea,stroke:#fff,stroke-width:2px,color:#fff
+    style B fill:#764ba2,stroke:#fff,stroke-width:2px,color:#fff
+    style C fill:#f093fb,stroke:#fff,stroke-width:2px,color:#fff
+    style D fill:#4CAF50,stroke:#fff,stroke-width:2px,color:#fff
+    style E fill:#2196F3,stroke:#fff,stroke-width:2px,color:#fff
+    style F fill:#FF6B6B,stroke:#fff,stroke-width:2px,color:#fff
+```
+
+<br/>
+
+### 📝 **How to Contribute**
 
 </div>
 
----
+1. **🍴 Fork** the Project
+   ```bash
+   # Click the Fork button at the top of this page
+   ```
 
-## 👨‍💻 Author
+2. **🌿 Create** your Feature Branch
+   ```bash
+   git checkout -b feature/AmazingFeature
+   ```
+
+3. **✍️ Commit** your Changes
+   ```bash
+   git commit -m '✨ Add some AmazingFeature'
+   ```
+
+4. **🚀 Push** to the Branch
+   ```bash
+   git push origin feature/AmazingFeature
+   ```
+
+5. **🎉 Open** a Pull Request
+
+<br/>
 
 <div align="center">
 
-### Danish Nawaz
+### 🌟 **Contributors**
 
-[![GitHub](https://img.shields.io/badge/GitHub-DAlgoSculptor-181717?style=for-the-badge&logo=github)](https://github.com/DAlgoSculptor)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-667eea?style=for-the-badge&logo=safari&logoColor=white)](https://github.com/DAlgoSculptor)
-
-**Project Link:** [Alzajeera News App](https://github.com/DAlgoSculptor/Alzajeera-News-App)
+<a href="https://github.com/DAlgoSculptor/Alzajeera-News-App/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=DAlgoSculptor/Alzajeera-News-App" />
+</a>
 
 </div>
 
+<br/>
+
 ---
 
-## 🌟 Show Your Support
+<br/>
+
+## 📄 LICENSE
 
 <div align="center">
 
-If you like this project, please give it a ⭐ on GitHub!
+### ⚖️ **Open Source & Free**
 
-[![GitHub stars](https://img.shields.io/github/stars/DAlgoSculptor/Alzajeera-News-App?style=social)](https://github.com/DAlgoSculptor/Alzajeera-News-App/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/DAlgoSculptor/Alzajeera-News-App?style=social)](https://github.com/DAlgoSculptor/Alzajeera-News-App/network/members)
+<br/>
+
+```
+MIT License
+
+Copyright (c) 2024 Danish Nawaz
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software.
+```
+
+<br/>
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](https://opensource.org/licenses/MIT)
 
 </div>
 
+<br/>
+
 ---
+
+<br/>
+
+## 👨‍💻 AUTHOR
 
 <div align="center">
 
-### 📬 Have Questions?
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=667EEA&center=true&vCenter=true&width=435&lines=Danish+Nawaz;Android+Developer;Kotlin+Enthusiast;Open+Source+Contributor" alt="Typing SVG" />
 
-Feel free to open an issue or reach out!
+<br/>
+<br/>
 
-Made with ❤️ by [Danish Nawaz](https://github.com/DAlgoSculptor)
+### 🚀 **Danish Nawaz**
+
+*Passionate Android Developer | Kotlin Lover | Tech Enthusiast*
+
+<br/>
+
+[![GitHub](https://img.shields.io/badge/GitHub-DAlgoSculptor-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/DAlgoSculptor)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Now-667eea?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/DAlgoSculptor)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
+
+<br/>
+
+**📂 Project Link:** [github.com/DAlgoSculptor/Alzajeera-News-App](https://github.com/DAlgoSculptor/Alzajeera-News-App)
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## ⭐ SHOW YOUR SUPPORT
+
+<div align="center">
+
+### 🌟 **Give a Star if You Like This Project!**
+
+<br/>
+
+![GitHub stars](https://img.shields.io/github/stars/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&logo=github&color=yellow)
+![GitHub forks](https://img.shields.io/github/forks/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&logo=github&color=blue)
+![GitHub watchers](https://img.shields.io/github/watchers/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&logo=github&color=green)
+![GitHub issues](https://img.shields.io/github/issues/DAlgoSculptor/Alzajeera-News-App?style=for-the-badge&logo=github&color=red)
+
+<br/>
+
+### 💬 **Have Questions or Suggestions?**
+
+Feel free to open an [issue](https://github.com/DAlgoSculptor/Alzajeera-News-App/issues/new) or reach out!
+
+<br/>
+
+---
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=150&section=footer&text=Thanks%20for%20Visiting!&fontSize=40&fontAlignY=65&animation=twinkling"/>
+
+<br/>
+
+**Made with ❤️ by [Danish Nawaz](https://github.com/DAlgoSculptor)**
+
+<br/>
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2000&pause=1000&color=667EEA&center=true&vCenter=true&width=435&lines=⭐+Star+this+repo;🍴+Fork+and+Contribute;📢+Share+with+others;❤️+Happy+Coding!" alt="Typing SVG" />
 
 </div>
