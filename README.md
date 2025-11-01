@@ -24,10 +24,14 @@ the latest news articles from NewsAPI.org.
 - 📷 Custom images in drawable resources
 
 ## Screenshots
+<div align="center">
 
-| Home Screen      | News Article     |
-|------------------|------------------|
-| ![Home Screen](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png) | ![News Detail](https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png) |
+| 🏠 Home Screen | 📰 News Article |
+|:---------------:|:---------------:|
+| <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" width="300" style="border-radius:10px; border:2px solid #ccc;"> | <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" width="300" style="border-radius:10px; border:2px solid #ccc;"> |
+
+</div>
+
 
 ## Images
 
