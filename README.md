@@ -1,216 +1,386 @@
-# Alzajeera News App
+# 📱 Alzajeera News App
 
-[//]: # (![Alzajeera News App]&#40;https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png&#41;)
 <div align="center">
-  <img 
-    src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" 
-    alt="Alzajeera News App" 
-    width="420"
-    style="border: 3px solid #4CAF50; border-radius: 12px; padding: 6px; background-color: #ffffff;"
-  />
+
+![App Icon](https://img.shields.io/badge/Alzajeera-News%20App-667eea?style=for-the-badge&logo=android&logoColor=white)
+
+  <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified1.png" alt="Alzajeera News App" width="420"/>
+
+### 🚀 A Modern Android News Application
+
+*Built with Kotlin & Jetpack Compose | Powered by NewsAPI.org*
+
+[![Made with Kotlin](https://img.shields.io/badge/Kotlin-1.8.0-7F52FF?style=flat-square&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-Latest-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white)](https://developer.android.com/jetpack/compose)
+[![Material 3](https://img.shields.io/badge/Material%203-Design-757575?style=flat-square&logo=material-design&logoColor=white)](https://m3.material.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=flat-square)](https://opensource.org/licenses/MIT)
+
 </div>
-A modern Android news application built with Kotlin and Jetpack Compose that fetches and displays
-the latest news articles from NewsAPI.org.
 
-## Features
+---
 
-- 📱 Modern UI with Jetpack Compose and Material 3 Design
-- 📰 Real-time news feed from NewsAPI.org
-- 🔄 Pull to refresh functionality
-- 🖼️ Image loading with Coil
-- 🌐 Network error handling and retry mechanism
-- 📱 Responsive design for all screen sizes
-- 🎨 Custom app icon with newspaper theme
-- 📷 Custom images in drawable resources
+## 📸 Screenshots
 
-## Screenshots
 <div align="center">
+
+  <table>
+    <tr>
+      <td align="center">
+        <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" width="350"/>
+        <br />
+        <sub><b>🏠 Home Screen</b></sub>
+        <br />
+        <sub>Modern Material 3 Design</sub>
+      </td>
+      <td align="center">
+        <img src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" width="350"/>
+        <br />
+        <sub><b>📰 News Article</b></sub>
+        <br />
+        <sub>Rich Content Display</sub>
+      </td>
+    </tr>
+  </table>
+
+</div>
+
+---
+
+## ✨ Features
+
+<div align="center">
+
+| Feature | Description |
+|---------|-------------|
+| 📱 **Modern UI** | Beautiful Material 3 Design with Jetpack Compose |
+| 📰 **Real-time News** | Live feed from NewsAPI.org |
+| 🔄 **Pull to Refresh** | Smooth refresh functionality |
+| 🖼️ **Image Loading** | Fast loading with Coil library |
+| 🌐 **Network Handling** | Robust error handling & retry |
+| 📏 **Responsive Design** | Adapts to all screen sizes |
+| 🎨 **Custom Theme** | Material 3 theming system |
+| ⚡ **Performance** | Optimized with Kotlin Coroutines |
+
+</div>
+
+---
+
+## 🛠️ Tech Stack
+
+<div align="center">
+
+```mermaid
+graph LR
+    A[Kotlin] --> B[Jetpack Compose]
+    B --> C[Material 3]
+    A --> D[Coroutines]
+    A --> E[Retrofit]
+    E --> F[NewsAPI]
+    B --> G[Coil]
+    A --> H[MVVM Architecture]
+```
+
+</div>
+
+### Core Technologies
 
 <table>
   <tr>
-    <th style="text-align:center; font-size:20px;">🏠 Home Screen</th>
-    <th style="text-align:center; font-size:20px;">📰 News Article</th>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/DAlgoSculptor/Alzajeera-News-App">
-        <img 
-          src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified2.png" 
-          width="300" 
-          style="border-radius:15px; border:2px solid #00C853; box-shadow:0 0 15px rgba(0,200,83,0.4); transition:transform 0.3s, box-shadow 0.3s;" 
-          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px rgba(0,200,83,0.8)';" 
-          onmouseout="this.style.transform='scale(1.0)'; this.style.boxShadow='0 0 15px rgba(0,200,83,0.4)';"
-        >
-      </a>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white"/>
+      <br /><b>Kotlin</b>
     </td>
-    <td>
-      <a href="https://github.com/DAlgoSculptor/Alzajeera-News-App">
-        <img 
-          src="https://github.com/DAlgoSculptor/Alzajeera-News-App/blob/main/app/src/main/res/drawable/home_page_modified3.png" 
-          width="300" 
-          style="border-radius:15px; border:2px solid #2979FF; box-shadow:0 0 15px rgba(41,121,255,0.4); transition:transform 0.3s, box-shadow 0.3s;" 
-          onmouseover="this.style.transform='scale(1.05)'; this.style.boxShadow='0 0 25px rgba(41,121,255,0.8)';" 
-          onmouseout="this.style.transform='scale(1.0)'; this.style.boxShadow='0 0 15px rgba(41,121,255,0.4)';"
-        >
-      </a>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white"/>
+      <br /><b>Jetpack Compose</b>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/Retrofit-48B983?style=for-the-badge&logo=square&logoColor=white"/>
+      <br /><b>Retrofit</b>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/Coil-000000?style=for-the-badge&logo=coil&logoColor=white"/>
+      <br /><b>Coil</b>
+    </td>
+    <td align="center" width="20%">
+      <img src="https://img.shields.io/badge/MVVM-FF6B6B?style=for-the-badge&logo=architecture&logoColor=white"/>
+      <br /><b>MVVM</b>
     </td>
   </tr>
 </table>
 
+---
+
+## 📁 Project Architecture
+
+<div align="center">
+
+```
+📦 app
+ ├── 📂 model
+ │   ├── 📄 NewsArticle.kt          # Data model for articles
+ │   ├── 📄 NewsResponse.kt         # API response model
+ │   └── 📄 NewsApiService.kt       # Retrofit API interface
+ │
+ ├── 📂 view
+ │   └── 📄 NewsScreen.kt           # Main Compose UI
+ │
+ ├── 📂 viewmodel
+ │   └── 📄 NewsViewModel.kt        # Business logic & state
+ │
+ ├── 📂 ui/theme
+ │   ├── 📄 Color.kt                # App colors
+ │   ├── 📄 Theme.kt                # Material 3 theme
+ │   └── 📄 Type.kt                 # Typography
+ │
+ └── 📄 MainActivity.kt              # Entry point
+```
+
 </div>
 
+---
 
-
-## Images
-
-The app includes custom images in the drawable resources:
-
-- `home_image.jpg` - Main home screen background
-- `screen_image.jpg` - Additional screen imagery
-
-## Tech Stack
-
-- **Language**: Kotlin
-- **UI Framework**: Jetpack Compose
-- **Architecture**: MVVM (Model-View-ViewModel)
-- **Networking**: Retrofit
-- **Image Loading**: Coil
-- **Dependency Injection**: None (manual DI)
-- **Asynchronous Programming**: Kotlin Coroutines
-
-## Architecture
-
-```
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/example/alzajeeraapp/
-│   │   │   ├── model/           # Data classes and API service
-│   │   │   ├── view/            # Compose UI components
-│   │   │   ├── viewmodel/       # ViewModel for UI logic
-│   │   │   ├── ui/theme/        # Compose theme definitions
-│   │   │   └── MainActivity.kt
-│   │   ├── res/                 # Resources (drawables, values, etc.)
-│   │   └── AndroidManifest.xml
-```
-
-## Dependencies
-
-- `androidx.core:core-ktx`
-- `androidx.lifecycle:lifecycle-runtime-ktx`
-- `androidx.activity:activity-compose`
-- `androidx.compose.ui:ui`
-- `androidx.compose.ui:ui-tooling-preview`
-- `androidx.compose.material3:material3`
-- `com.squareup.retrofit2:retrofit`
-- `com.squareup.retrofit2:converter-gson`
-- `io.coil-kt:coil-compose`
-
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-- Android Studio Flamingo or later
-- Kotlin 1.8.0 or later
-- Android Gradle Plugin 8.9.1 or later
-- Gradle 8.11.1 or later
+<div align="center">
 
-### Installation
+| Requirement | Version |
+|------------|---------|
+| 🔧 Android Studio | Flamingo+ |
+| 🔷 Kotlin | 1.8.0+ |
+| 🏗️ Gradle | 8.11.1+ |
+| 📱 Min SDK | 24 (Android 7.0) |
+| 🎯 Target SDK | 34 (Android 14) |
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/DAlgoSculptor/Alzajeera-News-App.git
-   ```
+</div>
 
-2. Open the project in Android Studio
+### Installation Steps
 
-3. Add your NewsAPI.org key in `NewsRepository.kt`:
-   ```kotlin
-   private val apiKey = "YOUR_API_KEY_HERE"
-   ```
-
-4. Build and run the project
-
-## API Integration
-
-The app uses NewsAPI.org for fetching news articles. You need to sign up for a free API key
-at [NewsAPI.org](https://newsapi.org/).
-
-### Endpoints Used
-
-- `GET /v2/top-headlines` - Fetch top news headlines
-
-## Project Structure
-
-```
-com.example.alzajeeraapp
-├── model
-│   ├── NewsArticle.kt
-│   ├── NewsResponse.kt
-│   └── NewsApiService.kt
-├── view
-│   └── NewsScreen.kt
-├── viewmodel
-│   └── NewsViewModel.kt
-├── ui
-│   └── theme
-│       ├── Color.kt
-│       ├── Theme.kt
-│       └── Type.kt
-└── MainActivity.kt
+1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/DAlgoSculptor/Alzajeera-News-App.git
+cd Alzajeera-News-App
 ```
 
-## Key Components
+2️⃣ **Get your API Key**
+- Visit [NewsAPI.org](https://newsapi.org/)
+- Sign up for a free API key
 
-### NewsScreen.kt
+3️⃣ **Add API Key**
+- Open `NewsRepository.kt`
+- Replace `YOUR_API_KEY_HERE` with your actual API key:
+```kotlin
+private val apiKey = "your_actual_api_key_here"
+```
 
-The main Compose UI that displays:
+4️⃣ **Build & Run**
+- Open project in Android Studio
+- Sync Gradle
+- Run on emulator or device
 
-- Loading indicators
-- News articles in a scrollable list
-- Error states with retry functionality
-- Pull-to-refresh capability
+---
 
-### NewsViewModel.kt
+## 📦 Dependencies
 
-Handles:
+<details>
+<summary><b>Click to expand dependencies</b></summary>
 
-- UI state management
-- API calls through the repository
-- Error handling
-- Loading states
+```gradle
+dependencies {
+    // Core Android
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.7.0'
+    
+    // Compose
+    implementation 'androidx.activity:activity-compose:1.8.2'
+    implementation platform('androidx.compose:compose-bom:2024.02.00')
+    implementation 'androidx.compose.ui:ui'
+    implementation 'androidx.compose.ui:ui-tooling-preview'
+    implementation 'androidx.compose.material3:material3'
+    
+    // Networking
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    
+    // Image Loading
+    implementation 'io.coil-kt:coil-compose:2.5.0'
+}
+```
 
-### NewsRepository.kt
+</details>
 
-Responsible for:
+---
 
-- Making API calls
-- Handling network responses
-- Providing data to the ViewModel
+## 🎯 Key Features Breakdown
 
-### NewsApiService.kt
+### 🏠 Home Screen
+- ✅ Material 3 Design language
+- ✅ Lazy column for efficient scrolling
+- ✅ Pull-to-refresh functionality
+- ✅ Loading states with progress indicators
+- ✅ Error handling with retry option
 
-Retrofit interface that defines:
+### 📰 News Articles
+- ✅ Rich image display
+- ✅ Article title and description
+- ✅ Source and timestamp
+- ✅ Smooth animations
+- ✅ Click to read more
 
-- API endpoints
-- Request parameters
-- Response types
+### 🔧 Technical Features
+- ✅ MVVM architecture pattern
+- ✅ Kotlin Coroutines for async operations
+- ✅ State management with ViewModel
+- ✅ Retrofit for network calls
+- ✅ Coil for image loading
+- ✅ Material 3 theming system
 
-## Contributing
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a pull request
+## 📊 API Integration
 
-## License
+<div align="center">
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```mermaid
+sequenceDiagram
+    participant UI as NewsScreen
+    participant VM as NewsViewModel
+    participant Repo as NewsRepository
+    participant API as NewsAPI
+    
+    UI->>VM: Request News
+    VM->>Repo: fetchNews()
+    Repo->>API: GET /v2/top-headlines
+    API-->>Repo: NewsResponse
+    Repo-->>VM: List<NewsArticle>
+    VM-->>UI: Update State
+    UI->>UI: Display Articles
+```
 
-## Contact
+</div>
 
-Danish Nawaz - [@DAlgoSculptor](https://github.com/DAlgoSculptor)
+### API Endpoints
 
-Project
-Link: [https://github.com/DAlgoSculptor/Alzajeera-News-App](https://github.com/DAlgoSculptor/Alzajeera-News-App)
+| Endpoint | Method | Description |
+|----------|--------|-------------|
+| `/v2/top-headlines` | GET | Fetch latest news headlines |
+
+**Parameters:**
+- `country`: News country (default: `us`)
+- `apiKey`: Your NewsAPI key
+
+---
+
+## 🎨 UI Components
+
+<table>
+  <tr>
+    <th>Component</th>
+    <th>Description</th>
+    <th>Technology</th>
+  </tr>
+  <tr>
+    <td>📄 <b>NewsScreen</b></td>
+    <td>Main composable displaying news list</td>
+    <td>Jetpack Compose</td>
+  </tr>
+  <tr>
+    <td>🎴 <b>NewsCard</b></td>
+    <td>Individual article card with image & text</td>
+    <td>Material 3 Card</td>
+  </tr>
+  <tr>
+    <td>🔄 <b>PullRefresh</b></td>
+    <td>Swipe-to-refresh indicator</td>
+    <td>Compose Material</td>
+  </tr>
+  <tr>
+    <td>⚠️ <b>ErrorState</b></td>
+    <td>Error display with retry button</td>
+    <td>Custom Composable</td>
+  </tr>
+  <tr>
+    <td>⏳ <b>LoadingState</b></td>
+    <td>Circular progress indicator</td>
+    <td>Material 3</td>
+  </tr>
+</table>
+
+---
+
+## 🤝 Contributing
+
+Contributions are what make the open source community amazing!
+
+<div align="center">
+
+```mermaid
+graph LR
+    A[Fork] --> B[Create Branch]
+    B --> C[Make Changes]
+    C --> D[Commit]
+    D --> E[Push]
+    E --> F[Pull Request]
+```
+
+</div>
+
+1. 🍴 Fork the Project
+2. 🌿 Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. ✍️ Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. 🚀 Push to the Branch (`git push origin feature/AmazingFeature`)
+5. 🎉 Open a Pull Request
+
+---
+
+## 📝 License
+
+<div align="center">
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+
+</div>
+
+---
+
+## 👨‍💻 Author
+
+<div align="center">
+
+### Danish Nawaz
+
+[![GitHub](https://img.shields.io/badge/GitHub-DAlgoSculptor-181717?style=for-the-badge&logo=github)](https://github.com/DAlgoSculptor)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-667eea?style=for-the-badge&logo=safari&logoColor=white)](https://github.com/DAlgoSculptor)
+
+**Project Link:** [Alzajeera News App](https://github.com/DAlgoSculptor/Alzajeera-News-App)
+
+</div>
+
+---
+
+## 🌟 Show Your Support
+
+<div align="center">
+
+If you like this project, please give it a ⭐ on GitHub!
+
+[![GitHub stars](https://img.shields.io/github/stars/DAlgoSculptor/Alzajeera-News-App?style=social)](https://github.com/DAlgoSculptor/Alzajeera-News-App/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/DAlgoSculptor/Alzajeera-News-App?style=social)](https://github.com/DAlgoSculptor/Alzajeera-News-App/network/members)
+
+</div>
+
+---
+
+<div align="center">
+
+### 📬 Have Questions?
+
+Feel free to open an issue or reach out!
+
+Made with ❤️ by [Danish Nawaz](https://github.com/DAlgoSculptor)
+
+</div>
