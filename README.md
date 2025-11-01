@@ -318,87 +318,96 @@ graph TD
 
 <br/>
 
-<!-- Enhanced Glass Panel with Hover Effects -->
 <table>
   <tr>
-    <td align="center">
+    <td align="center" width="16.66%">
       <kbd>
-        <table>
-          <tr>
-            <td align="center" width="16.66%">
-              <br/>
-              <a href="https://kotlinlang.org/" target="_blank">
-                <img src="https://skillicons.dev/icons?i=kotlin" width="65" height="65" alt="Kotlin"/>
-              </a>
-              <br/><br/>
-              <img src="https://img.shields.io/badge/Kotlin-1.8.0+-0095D5?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000&color=3DDC84" alt="Kotlin"/>
-              <br/><br/>
-              <sub><b>🔷 Core Language</b></sub><br/>
-              <sub>Modern & Concise</sub>
-              <br/><br/>
-            </td>
-            <td align="center" width="16.66%">
-              <br/>
-              <a href="https://developer.android.com/jetpack/compose" target="_blank">
-                <img src="https://skillicons.dev/icons?i=androidstudio" width="65" height="65" alt="Android"/>
-              </a>
-              <br/><br/>
-              <img src="https://img.shields.io/badge/Jetpack_Compose-Latest-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white&labelColor=000&color=00C853" alt="Jetpack"/>
-              <br/><br/>
-              <sub><b>🎨 UI Toolkit</b></sub><br/>
-              <sub>Declarative UI</sub>
-              <br/><br/>
-            </td>
-            <td align="center" width="16.66%">
-              <br/>
-              <a href="https://square.github.io/retrofit/" target="_blank">
-                <img src="https://user-images.githubusercontent.com/25181517/186711335-a3729606-5a78-4496-9a36-06efcc74f800.png" width="65" height="65" alt="Retrofit"/>
-              </a>
-              <br/><br/>
-              <img src="https://img.shields.io/badge/Retrofit-2.9.0-48B983?style=for-the-badge&logo=square&logoColor=white&labelColor=000&color=00E676" alt="Retrofit"/>
-              <br/><br/>
-              <sub><b>🌐 HTTP Client</b></sub><br/>
-              <sub>Type-safe REST</sub>
-              <br/><br/>
-            </td>
-            <td align="center" width="16.66%">
-              <br/>
-              <a href="https://coil-kt.github.io/coil/" target="_blank">
-                <img src="https://coil-kt.github.io/coil/logo.svg" width="65" height="65" alt="Coil"/>
-              </a>
-              <br/><br/>
-              <img src="https://img.shields.io/badge/Coil-2.5.0-000000?style=for-the-badge&logo=coil&logoColor=white&labelColor=000&color=69F0AE" alt="Coil"/>
-              <br/><br/>
-              <sub><b>🖼️ Image Loader</b></sub><br/>
-              <sub>Kotlin-first</sub>
-              <br/><br/>
-            </td>
-            <td align="center" width="16.66%">
-              <br/>
-              <a href="https://kotlinlang.org/docs/coroutines-overview.html" target="_blank">
-                <img src="https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack_donut.gif" width="65" height="65" alt="Coroutines"/>
-              </a>
-              <br/><br/>
-              <img src="https://img.shields.io/badge/Coroutines-Flow-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000&color=4CAF50" alt="Coroutines"/>
-              <br/><br/>
-              <sub><b>⚡ Async Handler</b></sub><br/>
-              <sub>Non-blocking</sub>
-              <br/><br/>
-            </td>
-            <td align="center" width="16.66%">
-              <br/>
-              <a href="https://developer.android.com/topic/architecture" target="_blank">
-                <img src="https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png" width="65" height="65" alt="MVVM"/>
-              </a>
-              <br/><br/>
-              <img src="https://img.shields.io/badge/MVVM-Pattern-FF6B6B?style=for-the-badge&logo=architecture&logoColor=white&labelColor=000&color=81C784" alt="MVVM"/>
-              <br/><br/>
-              <sub><b>🏗️ Architecture</b></sub><br/>
-              <sub>Clean & Testable</sub>
-              <br/><br/>
-            </td>
-          </tr>
-        </table>
+        <br/>
+        <a href="https://kotlinlang.org/" target="_blank">
+          <img src="https://skillicons.dev/icons?i=kotlin" width="65" height="65" alt="Kotlin"/>
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Kotlin-1.8.0+-0095D5?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000&color=3DDC84" alt="Kotlin"/>
+        <br/><br/>
+        <sub><b>🔷 Core Language</b></sub>
+        <br/>
+        <sub>Modern & Concise</sub>
+        <br/><br/>
+      </kbd>
+    </td>
+    <td align="center" width="16.66%">
+      <kbd>
+        <br/>
+        <a href="https://developer.android.com/jetpack/compose" target="_blank">
+          <img src="https://skillicons.dev/icons?i=androidstudio" width="65" height="65" alt="Android"/>
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Jetpack_Compose-Latest-4285F4?style=for-the-badge&logo=jetpackcompose&logoColor=white&labelColor=000&color=00C853" alt="Jetpack"/>
+        <br/><br/>
+        <sub><b>🎨 UI Toolkit</b></sub>
+        <br/>
+        <sub>Declarative UI</sub>
+        <br/><br/>
+      </kbd>
+    </td>
+    <td align="center" width="16.66%">
+      <kbd>
+        <br/>
+        <a href="https://square.github.io/retrofit/" target="_blank">
+          <img src="https://user-images.githubusercontent.com/25181517/186711335-a3729606-5a78-4496-9a36-06efcc74f800.png" width="65" height="65" alt="Retrofit"/>
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Retrofit-2.9.0-48B983?style=for-the-badge&logo=square&logoColor=white&labelColor=000&color=00E676" alt="Retrofit"/>
+        <br/><br/>
+        <sub><b>🌐 HTTP Client</b></sub>
+        <br/>
+        <sub>Type-safe REST</sub>
+        <br/><br/>
+      </kbd>
+    </td>
+    <td align="center" width="16.66%">
+      <kbd>
+        <br/>
+        <a href="https://coil-kt.github.io/coil/" target="_blank">
+          <img src="https://coil-kt.github.io/coil/logo.svg" width="65" height="65" alt="Coil"/>
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Coil-2.5.0-000000?style=for-the-badge&logo=coil&logoColor=white&labelColor=000&color=69F0AE" alt="Coil"/>
+        <br/><br/>
+        <sub><b>🖼️ Image Loader</b></sub>
+        <br/>
+        <sub>Kotlin-first</sub>
+        <br/><br/>
+      </kbd>
+    </td>
+    <td align="center" width="16.66%">
+      <kbd>
+        <br/>
+        <a href="https://kotlinlang.org/docs/coroutines-overview.html" target="_blank">
+          <img src="https://3.bp.blogspot.com/-VVp3WvJvl84/X0Vu6EjYqDI/AAAAAAAAPjU/ZOMKiUlgfg8ok8DY8Hc-ocOvGdB0z86AgCLcBGAsYHQ/s1600/jetpack_donut.gif" width="65" height="65" alt="Coroutines"/>
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/Coroutines-Flow-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000&color=4CAF50" alt="Coroutines"/>
+        <br/><br/>
+        <sub><b>⚡ Async Handler</b></sub>
+        <br/>
+        <sub>Non-blocking</sub>
+        <br/><br/>
+      </kbd>
+    </td>
+    <td align="center" width="16.66%">
+      <kbd>
+        <br/>
+        <a href="https://developer.android.com/topic/architecture" target="_blank">
+          <img src="https://miro.medium.com/v2/resize:fit:300/1*R4c8lHBHuH5qyqOtZb3h-w.png" width="65" height="65" alt="MVVM"/>
+        </a>
+        <br/><br/>
+        <img src="https://img.shields.io/badge/MVVM-Pattern-FF6B6B?style=for-the-badge&logo=architecture&logoColor=white&labelColor=000&color=81C784" alt="MVVM"/>
+        <br/><br/>
+        <sub><b>🏗️ Architecture</b></sub>
+        <br/>
+        <sub>Clean & Testable</sub>
+        <br/><br/>
       </kbd>
     </td>
   </tr>
@@ -410,45 +419,61 @@ graph TD
 
 <br/>
 
-<kbd>
 <table>
   <tr>
     <td width="33%" align="center">
-      <br/>
-      <img src="https://img.shields.io/badge/Material_3-Design_System-00C853?style=for-the-badge&logo=material-design&logoColor=white&labelColor=000"/>
-      <br/><br/>
-      <b>🎨 UI/UX</b><br/><br/>
-      ✅ Material Components<br/>
-      ✅ Dynamic Theming<br/>
-      ✅ Adaptive Layouts<br/>
-      ✅ Smooth Animations<br/>
-      <br/>
+      <kbd>
+        <br/>
+        <img src="https://img.shields.io/badge/Material_3-Design_System-00C853?style=for-the-badge&logo=material-design&logoColor=white&labelColor=000"/>
+        <br/><br/>
+        <b>🎨 UI/UX</b>
+        <br/><br/>
+        ✅ Material Components
+        <br/>
+        ✅ Dynamic Theming
+        <br/>
+        ✅ Adaptive Layouts
+        <br/>
+        ✅ Smooth Animations
+        <br/><br/>
+      </kbd>
     </td>
     <td width="33%" align="center">
-      <br/>
-      <img src="https://img.shields.io/badge/Kotlin_Coroutines-Async-3DDC84?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000"/>
-      <br/><br/>
-      <b>⚙️ Concurrency</b><br/><br/>
-      ✅ Structured Concurrency<br/>
-      ✅ Flow & StateFlow<br/>
-      ✅ Exception Handling<br/>
-      ✅ Lifecycle Aware<br/>
-      <br/>
+      <kbd>
+        <br/>
+        <img src="https://img.shields.io/badge/Kotlin_Coroutines-Async-3DDC84?style=for-the-badge&logo=kotlin&logoColor=white&labelColor=000"/>
+        <br/><br/>
+        <b>⚙️ Concurrency</b>
+        <br/><br/>
+        ✅ Structured Concurrency
+        <br/>
+        ✅ Flow & StateFlow
+        <br/>
+        ✅ Exception Handling
+        <br/>
+        ✅ Lifecycle Aware
+        <br/><br/>
+      </kbd>
     </td>
     <td width="33%" align="center">
-      <br/>
-      <img src="https://img.shields.io/badge/Retrofit_+_OkHttp-Networking-00E676?style=for-the-badge&logo=square&logoColor=white&labelColor=000"/>
-      <br/><br/>
-      <b>🌐 Network</b><br/><br/>
-      ✅ RESTful API Calls<br/>
-      ✅ JSON Parsing<br/>
-      ✅ Error Interceptors<br/>
-      ✅ Logging Support<br/>
-      <br/>
+      <kbd>
+        <br/>
+        <img src="https://img.shields.io/badge/Retrofit_+_OkHttp-Networking-00E676?style=for-the-badge&logo=square&logoColor=white&labelColor=000"/>
+        <br/><br/>
+        <b>🌐 Network</b>
+        <br/><br/>
+        ✅ RESTful API Calls
+        <br/>
+        ✅ JSON Parsing
+        <br/>
+        ✅ Error Interceptors
+        <br/>
+        ✅ Logging Support
+        <br/><br/>
+      </kbd>
     </td>
   </tr>
 </table>
-</kbd>
 
 <br/>
 
@@ -465,10 +490,12 @@ graph TD
         <br/><br/>
         <img src="https://img.shields.io/badge/Presentation_Layer-3DDC84?style=flat-square&labelColor=000"/>
         <br/><br/>
-        <sub>📱 UI Components</sub><br/>
-        <sub>🎨 Jetpack Compose</sub><br/>
-        <sub>🖼️ Material 3</sub><br/>
+        <sub>📱 UI Components</sub>
         <br/>
+        <sub>🎨 Jetpack Compose</sub>
+        <br/>
+        <sub>🖼️ Material 3</sub>
+        <br/><br/>
       </kbd>
     </td>
     <td width="25%" align="center">
@@ -478,10 +505,12 @@ graph TD
         <br/><br/>
         <img src="https://img.shields.io/badge/Domain_Layer-00C853?style=flat-square&labelColor=000"/>
         <br/><br/>
-        <sub>🧠 Business Logic</sub><br/>
-        <sub>📋 Use Cases</sub><br/>
-        <sub>🎯 Models</sub><br/>
+        <sub>🧠 Business Logic</sub>
         <br/>
+        <sub>📋 Use Cases</sub>
+        <br/>
+        <sub>🎯 Models</sub>
+        <br/><br/>
       </kbd>
     </td>
     <td width="25%" align="center">
@@ -491,10 +520,12 @@ graph TD
         <br/><br/>
         <img src="https://img.shields.io/badge/Data_Layer-00E676?style=flat-square&labelColor=000"/>
         <br/><br/>
-        <sub>🌐 Repository</sub><br/>
-        <sub>📡 API Service</sub><br/>
-        <sub>💾 Data Sources</sub><br/>
+        <sub>🌐 Repository</sub>
         <br/>
+        <sub>📡 API Service</sub>
+        <br/>
+        <sub>💾 Data Sources</sub>
+        <br/><br/>
       </kbd>
     </td>
     <td width="25%" align="center">
@@ -504,10 +535,12 @@ graph TD
         <br/><br/>
         <img src="https://img.shields.io/badge/Network_Layer-69F0AE?style=flat-square&labelColor=000"/>
         <br/><br/>
-        <sub>🔌 Retrofit</sub><br/>
-        <sub>📰 NewsAPI</sub><br/>
-        <sub>🔄 Interceptors</sub><br/>
+        <sub>🔌 Retrofit</sub>
         <br/>
+        <sub>📰 NewsAPI</sub>
+        <br/>
+        <sub>🔄 Interceptors</sub>
+        <br/><br/>
       </kbd>
     </td>
   </tr>
